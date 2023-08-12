@@ -1,0 +1,89 @@
+body{
+    background-image: url(imageA2.jpg);background-repeat: no-repeat;background-size: cover;
+}
+nav {
+    background-color: rgba(2, 60, 91, 0.523);
+    color: rgb(212, 198, 234);
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16pt;
+    width: 100%;
+    position: sticky;
+    display: inline-block;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+}
+
+body {
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    padding: 22px 16px;
+}
+
+.links:hover {
+    background-color: aliceblue;
+    color: rgba(141, 144, 128, 0.523);
+}
+p{font-family: Arial, Helvetica, sans-serif;color: rgba(236, 156, 37, 0.768);}
+
+.form-div{
+    border: 1px dashed rgb(200, 222, 224);
+    border-radius:5px ;
+    padding: 10px;
+    background-color: rgba(106, 148, 246, 0.542);
+    color: bisque;
+    width: fit-content;
+    margin:auto;
+    font-size: 70%;
+}
+h1{
+    margin-top: 0px;
+}
+#register{
+    background-color: rgba(236, 156, 37, 0.768);
+    border-radius: 5x;
+    width: 100px;
+}
+#register:hover {
+    background-color: rgba(60, 74, 104, 0.469);
+    width: 110px;
+    transition: width .05s;
+}
+.footer {
+    background-color:white;
+    color: rgb(110, 35, 35);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 90px;
+}
+
+body {
+    margin: 0px;
+    height: 400%;
+}
+.table2{
+    margin: auto;
+    padding: 5px;
+}
+.footer li{
+    padding: 0px;
+    list-style-type: none;
+
+}
+td{
+   padding-right: 100px; 
+}
+#logo{
+    width: 60px;
+    height: 60px;
+}
